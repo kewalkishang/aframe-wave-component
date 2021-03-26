@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Wave Effect! • A-Frame</title>
+  <meta name="description" content="Wave Effect! • A-Frame">
+  <!-- Import CDN for Aframe -->
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+
+  <!-- Importing wave component -->
+  <script type="text/javascript" src="wave.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Creating an Aframe scene -->
+  <a-scene background="color: #ECECEC">
+
+    <!-- Adding the wave component to an Aframe entity -->
+    <!-- Passing the path of the texture to wave :) -->
+    <a-entity wave-component="texturepath : pirate.png" position="0 1.5 -5"></a-entity>
+
+  </a-scene>
+
+</body>
+
+</html>
